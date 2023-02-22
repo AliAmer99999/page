@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    overflow-x: hidden;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+    /* Parent of Sections Styling */
+
+.parent-sections {
+
+    min-height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+    /* Title of Sections Styling */
+
+.parent-sections .section-title {
+
+    font-family: 'Cairo';
+    font-weight: 700;
+    font-size: 2.3em;
+    text-transform: capitalize;
+    color: #2196f3;
+    text-shadow: 1px 1px 2px #0000003b;
+}
+
+.parent-sections .section-title:nth-of-type(2) {
+
+    background: #f3eae3;
+    width: 100%;
+    padding-top: 21px;
+    text-align: center;
+}
+
+.parent-sections .section-title a {
+
+    color: purple;
+}
+
+
+.parent-sections .section-title:nth-of-type(2) a {
+
+    color: #fff;
+}
+
+
+.parent-sections .section-title a:hover {
+
+    text-decoration: underline 1px;
+}
+
+
+    /* Global Styling To Section  */
+
+.parent-sections section {
+
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-sections .project-1 {
+
+    width: 80%;
+    min-height: 80vh;
+}
+
+.parent-sections .project-1 .content {
+
+    width: 100%;
+    height: 80vh;
+}
+
+.parent-sections .project-1 .content iframe {
+
+    width: 100%;
+    height: 100%;
+    border: 2px solid #0000002b;
+    border-radius: 9px;
+}
+
+    /* Sections Styling */
+
+.parent-sections section:nth-of-type(1) {
+    
+    background: #fff;
+}
+
+.parent-sections section:nth-of-type(2) {
+    
+    background: #f3eae3;
+}
